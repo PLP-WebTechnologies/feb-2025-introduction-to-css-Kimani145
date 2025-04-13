@@ -1,0 +1,54 @@
+/* 
+Instructions
+
+Create a style.css file.
+Apply CSS to a HTML page.
+Style elements using:
+Classes and IDs.
+Color and typography.
+Margins, paddings, and borders.
+
+>[!NOTE]
+>  - Include at least:
+>  - Use of 3 selectors
+>  - Style an image
+>  - Margin, Padding & Borders
+>  - Different font
+*/
+body{
+    color: #000;
+    background-color: #f0f0f0;
+    font: arial
+}
+h1{
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+#salary_Table{
+    border: 5px;
+    margin: 10px;
+    padding: 3px;
+    background-color: #333;
+    font: arial;
+    color: #fff;
+}
+.introduction{  
+    text-align: center;
+    font-size: 1.5em;
+    font: roboto;
+    color: #000;
+}
+img{
+    border: 5px solid #000;
+    margin: 10px;
+    padding: 3px;
+    background-color: #333;
+    font: arial;
+    color: #fff;
+}
+h2{
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+}
